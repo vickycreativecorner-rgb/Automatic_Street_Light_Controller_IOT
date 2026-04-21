@@ -39,6 +39,8 @@ This project is designed to automatically control street lights using sensors, a
 
 # Circuit Diagram:
 
+![Uploading image.png…]()
+
 
 # Applications:
 - Smart cities
