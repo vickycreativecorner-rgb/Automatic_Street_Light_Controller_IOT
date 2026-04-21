@@ -39,7 +39,8 @@ This project is designed to automatically control street lights using sensors, a
 
 # Circuit Diagram:
 
-![Uploading image.png…]()
+<img width="1083" height="391" alt="image" src="https://github.com/user-attachments/assets/45411440-d800-4411-97f1-09f56430ac71" />
+
 
 
 # Applications:
