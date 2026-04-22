@@ -1,8 +1,6 @@
 # Automatic_Street_Light_Controller_IOT
 IoT-based automatic street light controller using LDR sensor and microcontroller for energy-efficient smart lighting.
 
-# Automatic Street Light Controller using IoT
-
 # Overview:
 This project is designed to automatically control street lights using sensors, a microcontroller, and IoT technology. It helps in energy saving by turning lights ON/OFF based on environmental conditions.
 
@@ -12,11 +10,11 @@ This project is designed to automatically control street lights using sensors, a
 - Enable remote monitoring using IoT
 
 # Components Used:
-- LDR Sensor
+- LDR Sensor (Light Dependent resistor)
 - Microcontroller (Arduino ESP32)
-- Relay Module
-- LED / Street Light Model
-- Power Supply
+- PIR Sensor
+- LED 
+- Resistors
 
 # Working Principle:
 - LDR detects light intensity
@@ -35,11 +33,26 @@ This project is designed to automatically control street lights using sensors, a
 - Sensors & Microcontroller
 
 # Project Images:
+<img width="1280" height="960" alt="WhatsApp Image 2026-04-22 at 11 33 38 AM" src="https://github.com/user-attachments/assets/979ca94a-31b8-4dbe-9923-64e1e86c2e75" />
+
 
 
 # Circuit Diagram:
 
 <img width="1083" height="391" alt="image" src="https://github.com/user-attachments/assets/45411440-d800-4411-97f1-09f56430ac71" />
+# Circuit Explanation:
+
+This circuit represents a smart street light system using ESP32, LDR, and PIR sensor.
+
+The ESP32 microcontroller is the main controller of the system. It receives input signals from the LDR and PIR sensor. The LDR is connected to an analog pin (GPIO34) and is used to detect ambient light intensity. During daytime, the LDR output indicates high light, so the street light remains OFF. During nighttime, the light intensity decreases, activating the system.
+
+The PIR sensor is connected to another GPIO pin and is used to detect motion. When motion is detected, the ESP32 sends a signal to the transistor.
+
+A BC547 transistor is used as a switch to control the LED. When the transistor is triggered, current flows through the LED, turning it ON. A resistor is used to limit current and protect the LED.
+
+This system helps in energy saving by automatically controlling street lights based on light intensity and human movement.
+
+
 
 
 
