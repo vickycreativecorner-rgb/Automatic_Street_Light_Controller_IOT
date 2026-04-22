@@ -33,7 +33,7 @@ This project is designed to automatically control street lights using sensors, a
 - IoT Platform (Blynk)
 - Sensors & Microcontroller
 
-# Project Images:
+# Project Image:
 <img width="1280" height="960" alt="WhatsApp Image 2026-04-22 at 11 33 38 AM" src="https://github.com/user-attachments/assets/979ca94a-31b8-4dbe-9923-64e1e86c2e75" />
 
 
