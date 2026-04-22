@@ -60,7 +60,6 @@ This system helps in energy saving by automatically controlling street lights ba
 - Public street lighting
 
 # Conclusion:
-Conclusion
 
 - The project successfully implements an automatic street light control system using ESP32, LDR, and PIR sensor. It detects ambient light and human motion to control lighting efficiently.
 
