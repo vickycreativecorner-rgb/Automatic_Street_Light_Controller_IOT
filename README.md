@@ -15,6 +15,7 @@ This project is designed to automatically control street lights using sensors, a
 - PIR Sensor
 - LED 
 - Resistors
+- BC547 Transistor
 
 # Working Principle:
 - LDR detects light intensity
@@ -53,13 +54,14 @@ A BC547 transistor is used as a switch to control the LED. When the transistor i
 This system helps in energy saving by automatically controlling street lights based on light intensity and human movement.
 
 
-
-
-
 # Applications:
 - Smart cities
 - Highways
 - Public street lighting
 
 # Conclusion:
-This system reduces manual effort and saves energy by automating street lights using IoT.
+Conclusion
+
+- The project successfully implements an automatic street light control system using ESP32, LDR, and PIR sensor. It detects ambient light and human motion to control lighting efficiently.
+
+- By turning OFF lights during daytime and activating them only when required at night, the system reduces energy consumption and improves performance. This solution is cost-effective and suitable for smart city applications.
