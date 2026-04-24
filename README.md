@@ -55,9 +55,12 @@ This system helps in energy saving by automatically controlling street lights ba
 
 
 # Applications:
-- Smart cities
-- Highways
-- Public street lighting
+
+• Smart Cities: Used in smart city infrastructure for automated and energy-efficient street lighting systems.
+
+• Highways: Can be implemented on highways to reduce energy consumption by activating lights only when vehicles are detected.
+
+• Public Street Lighting: Suitable for urban and rural street lighting to automate ON/OFF control based on light intensity and motion.
 
 # Conclusion:
 
