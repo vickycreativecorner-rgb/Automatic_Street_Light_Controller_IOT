@@ -21,9 +21,6 @@ int ldrValue;
  
 int pirState; 
  
-
- 
- 
 bool manualMode = false; 
 int manualBrightness = 0; 
  
