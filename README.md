@@ -10,9 +10,9 @@ This project is designed to automatically control street lights using sensors, a
 - Enable remote monitoring using IoT
 
 # Components Used:
-- LDR Sensor (Light Dependent resistor)
+- LDR Sensor (Light Dependent Resistor)
 - Microcontroller (Arduino ESP32)
-- PIR Sensor
+- PIR Sensor (Passive Infrared Sensor)
 - LED 
 - Resistors
 - BC547 Transistor
